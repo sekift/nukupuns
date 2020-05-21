@@ -19,8 +19,12 @@ public enum InstrumentType {
     AGT(9,"aero guitar","空心吉他"),
     UK(10,"ukulili","尤克里里"),
 
-    DR(11,"drum","鼓"),
     BS(12,"bass","贝斯"),
+
+    DR(11,"drum","鼓"),
+    KI(1,"kick","地鼓"),
+    HI(1,"hihat","踩镲"),
+    SN(1,"snare","军鼓"),
 
     STR(13,"strings","弦乐"),
     VOL(14,"violin","小提琴"),
@@ -35,6 +39,8 @@ public enum InstrumentType {
     CL(23,"clarinet","单簧管"),
     OB(24,"oboe","双簧管"),
     SYN(25,"synthesis","合成乐器"),
+
+    CLAP(1,"clap","拍手"),
     OS(26,"os","口白");
 
     private InstrumentType(int number, String english, String name){
