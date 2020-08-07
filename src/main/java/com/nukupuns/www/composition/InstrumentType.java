@@ -1,4 +1,4 @@
-package com.nukupuns.www.instrument;
+package com.nukupuns.www.composition;
 
 /**
  * 乐器类型
